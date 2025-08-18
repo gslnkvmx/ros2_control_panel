@@ -1,0 +1,91 @@
+[0.286s] DEBUG:colcon:Command line arguments: ['/home/benya/.local/bin/colcon', 'build']
+[0.286s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7b8a1e3847f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b8a1e384220>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b8a1e384220>>, mixin_verb=('build',))
+[0.681s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.682s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.682s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.682s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.682s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.682s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.682s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/benya/PycharmProjects/ros2_control_panel'
+[0.682s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.683s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.719s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'rosboard'
+[0.719s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.719s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.719s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.719s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.719s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.757s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.757s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.760s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/benya/PycharmProjects/ros2_control_panel/install
+[0.762s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 406 installed packages in /opt/ros/humble
+[0.766s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'rosboard' build argument 'cmake_args' from command line to 'None'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'rosboard' build argument 'cmake_target' from command line to 'None'
+[0.843s] Level 5:colcon.colcon_core.verb:set package 'rosboard' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.844s] Level 5:colcon.colcon_core.verb:set package 'rosboard' build argument 'cmake_clean_cache' from command line to 'False'
+[0.844s] Level 5:colcon.colcon_core.verb:set package 'rosboard' build argument 'cmake_clean_first' from command line to 'False'
+[0.844s] Level 5:colcon.colcon_core.verb:set package 'rosboard' build argument 'cmake_force_configure' from command line to 'False'
+[0.844s] Level 5:colcon.colcon_core.verb:set package 'rosboard' build argument 'ament_cmake_args' from command line to 'None'
+[0.844s] Level 5:colcon.colcon_core.verb:set package 'rosboard' build argument 'catkin_cmake_args' from command line to 'None'
+[0.844s] Level 5:colcon.colcon_core.verb:set package 'rosboard' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.844s] DEBUG:colcon.colcon_core.verb:Building package 'rosboard' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/benya/PycharmProjects/ros2_control_panel/build/rosboard', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/benya/PycharmProjects/ros2_control_panel/install/rosboard', 'merge_install': False, 'path': '/home/benya/PycharmProjects/ros2_control_panel', 'symlink_install': False, 'test_result_base': None}
+[0.844s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.846s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.847s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/benya/PycharmProjects/ros2_control_panel' with build type 'ament_python'
+[0.847s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosboard', 'ament_prefix_path')
+[0.850s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benya/PycharmProjects/ros2_control_panel/install/rosboard/share/rosboard/hook/ament_prefix_path.ps1'
+[0.851s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/benya/PycharmProjects/ros2_control_panel/install/rosboard/share/rosboard/hook/ament_prefix_path.dsv'
+[0.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benya/PycharmProjects/ros2_control_panel/install/rosboard/share/rosboard/hook/ament_prefix_path.sh'
+[0.854s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.854s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.698s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/benya/PycharmProjects/ros2_control_panel'
+[1.699s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.699s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/benya/PycharmProjects/ros2_control_panel': PYTHONPATH=/home/benya/PycharmProjects/ros2_control_panel/build/rosboard/prefix_override:/home/benya/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/rosboard build --build-base /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build install --record /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/install.log --single-version-externally-managed install_data
+[4.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/benya/PycharmProjects/ros2_control_panel' returned '0': PYTHONPATH=/home/benya/PycharmProjects/ros2_control_panel/build/rosboard/prefix_override:/home/benya/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/rosboard build --build-base /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build install --record /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/install.log --single-version-externally-managed install_data
+[4.265s] Level 1:colcon.colcon_core.environment:checking '/home/benya/PycharmProjects/ros2_control_panel/install/rosboard' for CMake module files
+[4.267s] Level 1:colcon.colcon_core.environment:checking '/home/benya/PycharmProjects/ros2_control_panel/install/rosboard' for CMake config files
+[4.269s] Level 1:colcon.colcon_core.environment:checking '/home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib'
+[4.270s] Level 1:colcon.colcon_core.environment:checking '/home/benya/PycharmProjects/ros2_control_panel/install/rosboard/bin'
+[4.270s] Level 1:colcon.colcon_core.environment:checking '/home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/pkgconfig/rosboard.pc'
+[4.270s] Level 1:colcon.colcon_core.environment:checking '/home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages'
+[4.270s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosboard', 'pythonpath')
+[4.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benya/PycharmProjects/ros2_control_panel/install/rosboard/share/rosboard/hook/pythonpath.ps1'
+[4.272s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/benya/PycharmProjects/ros2_control_panel/install/rosboard/share/rosboard/hook/pythonpath.dsv'
+[4.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benya/PycharmProjects/ros2_control_panel/install/rosboard/share/rosboard/hook/pythonpath.sh'
+[4.273s] Level 1:colcon.colcon_core.environment:checking '/home/benya/PycharmProjects/ros2_control_panel/install/rosboard/bin'
+[4.273s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosboard)
+[4.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/benya/PycharmProjects/ros2_control_panel/install/rosboard/share/rosboard/package.ps1'
+[4.275s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/benya/PycharmProjects/ros2_control_panel/install/rosboard/share/rosboard/package.dsv'
+[4.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/benya/PycharmProjects/ros2_control_panel/install/rosboard/share/rosboard/package.sh'
+[4.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/benya/PycharmProjects/ros2_control_panel/install/rosboard/share/rosboard/package.bash'
+[4.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/benya/PycharmProjects/ros2_control_panel/install/rosboard/share/rosboard/package.zsh'
+[4.280s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/benya/PycharmProjects/ros2_control_panel/install/rosboard/share/colcon-core/packages/rosboard)
+[4.281s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.281s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.281s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.282s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.292s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[4.292s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.292s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.292s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.325s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.327s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/benya/PycharmProjects/ros2_control_panel/install/local_setup.ps1'
+[4.330s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/benya/PycharmProjects/ros2_control_panel/install/_local_setup_util_ps1.py'
+[4.334s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/benya/PycharmProjects/ros2_control_panel/install/setup.ps1'
+[4.336s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/benya/PycharmProjects/ros2_control_panel/install/local_setup.sh'
+[4.337s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/benya/PycharmProjects/ros2_control_panel/install/_local_setup_util_sh.py'
+[4.338s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/benya/PycharmProjects/ros2_control_panel/install/setup.sh'
+[4.340s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/benya/PycharmProjects/ros2_control_panel/install/local_setup.bash'
+[4.341s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/benya/PycharmProjects/ros2_control_panel/install/setup.bash'
+[4.344s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/benya/PycharmProjects/ros2_control_panel/install/local_setup.zsh'
+[4.344s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/benya/PycharmProjects/ros2_control_panel/install/setup.zsh'

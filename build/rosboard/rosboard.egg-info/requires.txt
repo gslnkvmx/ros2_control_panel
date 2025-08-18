@@ -1,0 +1,5 @@
+setuptools
+tornado>=4.2.1
+
+[system_stats]
+psutil

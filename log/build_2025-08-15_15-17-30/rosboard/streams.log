@@ -1,0 +1,254 @@
+[2.223s] Invoking command in '/home/benya/PycharmProjects/ros2_control_panel': PYTHONPATH=/home/benya/PycharmProjects/ros2_control_panel/build/rosboard/prefix_override:/home/benya/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/rosboard build --build-base /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build install --record /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/install.log --single-version-externally-managed install_data
+[3.047s] running egg_info
+[3.048s] creating build/rosboard/rosboard.egg-info
+[3.079s] writing build/rosboard/rosboard.egg-info/PKG-INFO
+[3.079s] writing dependency_links to build/rosboard/rosboard.egg-info/dependency_links.txt
+[3.080s] writing entry points to build/rosboard/rosboard.egg-info/entry_points.txt
+[3.080s] writing requirements to build/rosboard/rosboard.egg-info/requires.txt
+[3.080s] writing top-level names to build/rosboard/rosboard.egg-info/top_level.txt
+[3.081s] writing manifest file 'build/rosboard/rosboard.egg-info/SOURCES.txt'
+[3.144s] reading manifest file 'build/rosboard/rosboard.egg-info/SOURCES.txt'
+[3.145s] adding license file 'LICENSE'
+[3.147s] writing manifest file 'build/rosboard/rosboard.egg-info/SOURCES.txt'
+[3.147s] running build
+[3.147s] running build_py
+[3.148s] creating /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build
+[3.148s] creating /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib
+[3.149s] creating /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard
+[3.150s] copying rosboard/serialization.py -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard
+[3.150s] copying rosboard/__init__.py -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard
+[3.150s] copying rosboard/message_serialization.py -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard
+[3.150s] copying rosboard/compression.py -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard
+[3.151s] copying rosboard/cv_bridge.py -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard
+[3.151s] copying rosboard/rosboard.py -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard
+[3.151s] copying rosboard/handlers.py -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard
+[3.151s] creating /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/subscribers
+[3.151s] copying rosboard/subscribers/dummy_subscriber.py -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/subscribers
+[3.151s] copying rosboard/subscribers/__init__.py -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/subscribers
+[3.151s] copying rosboard/subscribers/dmesg_subscriber.py -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/subscribers
+[3.151s] copying rosboard/subscribers/processes_subscriber.py -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/subscribers
+[3.152s] copying rosboard/subscribers/system_stats_subscriber.py -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/subscribers
+[3.152s] creating /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/rospy2
+[3.152s] copying rosboard/rospy2/__init__.py -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/rospy2
+[3.152s] copying rosboard/rospy2/constants.py -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/rospy2
+[3.154s] creating /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html
+[3.154s] copying rosboard/html/index.html -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html
+[3.155s] creating /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts
+[3.155s] copying rosboard/html/fonts/MaterialIcons-Regular.ttf -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts
+[3.155s] copying rosboard/html/fonts/titillium-web-v10-latin-300.woff2 -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts
+[3.155s] copying rosboard/html/fonts/MaterialIcons-Regular.ijmap -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts
+[3.155s] copying rosboard/html/fonts/titillium-web-v10-latin-300.eot -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts
+[3.156s] copying rosboard/html/fonts/MaterialIcons-Regular.woff -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts
+[3.156s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-700.woff2 -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts
+[3.156s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-700.eot -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts
+[3.157s] copying rosboard/html/fonts/titillium-web-v10-latin-700.ttf -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts
+[3.157s] copying rosboard/html/fonts/titillium-web-v10-latin-300.svg -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts
+[3.157s] copying rosboard/html/fonts/titillium-web-v10-latin-700.woff2 -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts
+[3.158s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-300.ttf -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts
+[3.158s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-700.ttf -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts
+[3.158s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-300.eot -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts
+[3.158s] copying rosboard/html/fonts/titillium-web-v10-latin-700.svg -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts
+[3.159s] copying rosboard/html/fonts/MaterialIcons-Regular.woff2 -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts
+[3.159s] copying rosboard/html/fonts/titillium-web-v10-latin-300.ttf -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts
+[3.159s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-300.svg -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts
+[3.159s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-700.svg -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts
+[3.160s] copying rosboard/html/fonts/titillium-web-v10-latin-300.woff -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts
+[3.160s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-300.woff -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts
+[3.160s] copying rosboard/html/fonts/MaterialIcons-Regular.svg -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts
+[3.161s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-300.woff2 -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts
+[3.161s] copying rosboard/html/fonts/titillium-web-v10-latin-700.eot -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts
+[3.161s] copying rosboard/html/fonts/titillium-web-v10-latin-700.woff -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts
+[3.161s] copying rosboard/html/fonts/jetbrains-mono-v6-latin-700.woff -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts
+[3.162s] copying rosboard/html/fonts/MaterialIcons-Regular.eot -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts
+[3.162s] creating /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/css
+[3.162s] copying rosboard/html/css/material-icons.css -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/css
+[3.162s] copying rosboard/html/css/material.light_green-lime.min.css -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/css
+[3.163s] copying rosboard/html/css/material.indigo-blue.min.css -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/css
+[3.163s] copying rosboard/html/css/leaflet.css -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/css
+[3.163s] copying rosboard/html/css/uPlot.min.css -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/css
+[3.164s] copying rosboard/html/css/leaflet.easy-button.css -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/css
+[3.164s] copying rosboard/html/css/material.blue_grey-indigo.min.css -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/css
+[3.164s] copying rosboard/html/css/index.css -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/css
+[3.164s] creating /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/css/images
+[3.164s] copying rosboard/html/css/images/marker-icon.png -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/css/images
+[3.165s] copying rosboard/html/css/images/layers.png -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/css/images
+[3.165s] copying rosboard/html/css/images/marker-shadow.png -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/css/images
+[3.165s] copying rosboard/html/css/images/marker-icon-2x.png -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/css/images
+[3.165s] copying rosboard/html/css/images/layers-2x.png -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/css/images
+[3.166s] creating /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js
+[3.166s] copying rosboard/html/js/import-helper.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js
+[3.166s] copying rosboard/html/js/leaflet.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js
+[3.166s] copying rosboard/html/js/rosbag.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js
+[3.167s] copying rosboard/html/js/jquery-3.1.0.min.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js
+[3.167s] copying rosboard/html/js/leaflet.js.map -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js
+[3.167s] copying rosboard/html/js/masonry.pkgd.min.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js
+[3.167s] copying rosboard/html/js/leaflet-src.esm.js.map -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js
+[3.167s] copying rosboard/html/js/litegl.min.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js
+[3.168s] copying rosboard/html/js/eventemitter2.min.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js
+[3.168s] copying rosboard/html/js/leaflet-src.js.map -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js
+[3.168s] copying rosboard/html/js/jquery.transit.min.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js
+[3.169s] copying rosboard/html/js/material.min.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js
+[3.169s] copying rosboard/html/js/leaflet.easy-button.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js
+[3.169s] copying rosboard/html/js/leaflet-src.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js
+[3.169s] copying rosboard/html/js/leaflet-src.esm.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js
+[3.170s] copying rosboard/html/js/uPlot.iife.min.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js
+[3.170s] copying rosboard/html/js/draggabilly.pkgd.min.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js
+[3.170s] copying rosboard/html/js/index.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js
+[3.170s] copying rosboard/html/js/json5.min.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js
+[3.171s] copying rosboard/html/js/gl-matrix.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js
+[3.171s] copying rosboard/html/js/material.min.js.map -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js
+[3.171s] creating /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/viewers
+[3.172s] copying rosboard/html/js/viewers/GeometryViewer.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/viewers
+[3.172s] copying rosboard/html/js/viewers/PolygonViewer.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/viewers
+[3.172s] copying rosboard/html/js/viewers/LogViewer.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/viewers
+[3.172s] copying rosboard/html/js/viewers/TimeSeriesPlotViewer.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/viewers
+[3.173s] copying rosboard/html/js/viewers/ImageViewer.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/viewers
+[3.173s] copying rosboard/html/js/viewers/ProcessListViewer.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/viewers
+[3.173s] copying rosboard/html/js/viewers/LaserScanViewer.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/viewers
+[3.174s] copying rosboard/html/js/viewers/DiagnosticViewer.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/viewers
+[3.174s] copying rosboard/html/js/viewers/GenericViewer.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/viewers
+[3.174s] copying rosboard/html/js/viewers/PointCloud2Viewer.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/viewers
+[3.174s] copying rosboard/html/js/viewers/MapViewer.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/viewers
+[3.174s] creating /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/viewers/meta
+[3.175s] copying rosboard/html/js/viewers/meta/Space2DViewer.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/viewers/meta
+[3.175s] copying rosboard/html/js/viewers/meta/Space3DViewer.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/viewers/meta
+[3.175s] copying rosboard/html/js/viewers/meta/Viewer.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/viewers/meta
+[3.175s] creating /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/transports
+[3.175s] copying rosboard/html/js/transports/DeviceSensorTransport.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/transports
+[3.175s] copying rosboard/html/js/transports/RosbagTransport.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/transports
+[3.175s] copying rosboard/html/js/transports/Rosbag2Transport.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/transports
+[3.175s] copying rosboard/html/js/transports/WebSocketV1Transport.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/transports
+[3.175s] copying rosboard/html/js/transports/RosBridgeTransport.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/transports
+[3.175s] running install
+[3.185s] running install_lib
+[3.215s] creating /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard
+[3.215s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/serialization.py -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard
+[3.216s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/__init__.py -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard
+[3.216s] creating /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html
+[3.216s] creating /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/css
+[3.217s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/css/material-icons.css -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/css
+[3.217s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/css/material.light_green-lime.min.css -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/css
+[3.217s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/css/material.indigo-blue.min.css -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/css
+[3.217s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/css/leaflet.css -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/css
+[3.218s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/css/uPlot.min.css -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/css
+[3.218s] creating /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/css/images
+[3.218s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/css/images/marker-icon.png -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/css/images
+[3.218s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/css/images/layers.png -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/css/images
+[3.218s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/css/images/marker-shadow.png -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/css/images
+[3.218s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/css/images/marker-icon-2x.png -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/css/images
+[3.218s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/css/images/layers-2x.png -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/css/images
+[3.219s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/css/leaflet.easy-button.css -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/css
+[3.219s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/css/material.blue_grey-indigo.min.css -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/css
+[3.219s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/css/index.css -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/css
+[3.219s] creating /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[3.219s] creating /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/transports
+[3.219s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/transports/DeviceSensorTransport.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/transports
+[3.219s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/transports/RosbagTransport.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/transports
+[3.219s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/transports/Rosbag2Transport.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/transports
+[3.219s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/transports/WebSocketV1Transport.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/transports
+[3.220s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/transports/RosBridgeTransport.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/transports
+[3.220s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/import-helper.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[3.220s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/leaflet.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[3.220s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/rosbag.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[3.220s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/jquery-3.1.0.min.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[3.220s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/leaflet.js.map -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[3.220s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/masonry.pkgd.min.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[3.220s] creating /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[3.221s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/viewers/GeometryViewer.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[3.221s] creating /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers/meta
+[3.221s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/viewers/meta/Space2DViewer.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers/meta
+[3.221s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/viewers/meta/Space3DViewer.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers/meta
+[3.221s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/viewers/meta/Viewer.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers/meta
+[3.221s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/viewers/PolygonViewer.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[3.221s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/viewers/LogViewer.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[3.222s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/viewers/TimeSeriesPlotViewer.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[3.222s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/viewers/ImageViewer.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[3.222s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/viewers/ProcessListViewer.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[3.222s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/viewers/LaserScanViewer.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[3.222s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/viewers/DiagnosticViewer.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[3.223s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/viewers/GenericViewer.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[3.223s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/viewers/PointCloud2Viewer.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[3.223s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/viewers/MapViewer.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js/viewers
+[3.223s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/leaflet-src.esm.js.map -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[3.224s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/litegl.min.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[3.224s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/eventemitter2.min.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[3.225s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/leaflet-src.js.map -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[3.225s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/jquery.transit.min.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[3.226s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/material.min.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[3.226s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/leaflet.easy-button.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[3.226s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/leaflet-src.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[3.227s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/leaflet-src.esm.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[3.227s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/uPlot.iife.min.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[3.228s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/draggabilly.pkgd.min.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[3.228s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/index.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[3.228s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/json5.min.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[3.229s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/gl-matrix.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[3.229s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/material.min.js.map -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[3.229s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/index.html -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html
+[3.229s] creating /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[3.229s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts/MaterialIcons-Regular.ttf -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[3.230s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-300.woff2 -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[3.230s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts/MaterialIcons-Regular.ijmap -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[3.230s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-300.eot -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[3.231s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts/MaterialIcons-Regular.woff -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[3.231s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-700.woff2 -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[3.231s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-700.eot -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[3.232s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-700.ttf -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[3.232s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-300.svg -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[3.232s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-700.woff2 -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[3.232s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-300.ttf -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[3.233s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-700.ttf -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[3.234s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-300.eot -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[3.235s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-700.svg -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[3.235s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts/MaterialIcons-Regular.woff2 -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[3.235s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-300.ttf -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[3.236s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-300.svg -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[3.236s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-700.svg -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[3.236s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-300.woff -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[3.237s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-300.woff -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[3.237s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts/MaterialIcons-Regular.svg -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[3.237s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-300.woff2 -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[3.237s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-700.eot -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[3.238s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts/titillium-web-v10-latin-700.woff -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[3.238s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts/jetbrains-mono-v6-latin-700.woff -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[3.238s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/fonts/MaterialIcons-Regular.eot -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/fonts
+[3.239s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/message_serialization.py -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard
+[3.239s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/compression.py -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard
+[3.239s] creating /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/subscribers
+[3.239s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/subscribers/dummy_subscriber.py -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/subscribers
+[3.240s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/subscribers/__init__.py -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/subscribers
+[3.240s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/subscribers/dmesg_subscriber.py -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/subscribers
+[3.240s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/subscribers/processes_subscriber.py -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/subscribers
+[3.240s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/subscribers/system_stats_subscriber.py -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/subscribers
+[3.241s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/cv_bridge.py -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard
+[3.241s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/rosboard.py -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard
+[3.241s] creating /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/rospy2
+[3.241s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/rospy2/__init__.py -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/rospy2
+[3.242s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/rospy2/constants.py -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/rospy2
+[3.242s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/handlers.py -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard
+[3.242s] byte-compiling /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/serialization.py to serialization.cpython-310.pyc
+[3.242s] byte-compiling /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/__init__.py to __init__.cpython-310.pyc
+[3.243s] byte-compiling /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/message_serialization.py to message_serialization.cpython-310.pyc
+[3.243s] byte-compiling /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/compression.py to compression.cpython-310.pyc
+[3.245s] byte-compiling /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/subscribers/dummy_subscriber.py to dummy_subscriber.cpython-310.pyc
+[3.246s] byte-compiling /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/subscribers/__init__.py to __init__.cpython-310.pyc
+[3.246s] byte-compiling /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/subscribers/dmesg_subscriber.py to dmesg_subscriber.cpython-310.pyc
+[3.247s] byte-compiling /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/subscribers/processes_subscriber.py to processes_subscriber.cpython-310.pyc
+[3.248s] byte-compiling /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/subscribers/system_stats_subscriber.py to system_stats_subscriber.cpython-310.pyc
+[3.250s] byte-compiling /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/cv_bridge.py to cv_bridge.cpython-310.pyc
+[3.252s] byte-compiling /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/rosboard.py to rosboard.cpython-310.pyc
+[3.256s] byte-compiling /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/rospy2/__init__.py to __init__.cpython-310.pyc
+[3.263s] byte-compiling /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/rospy2/constants.py to constants.cpython-310.pyc
+[3.263s] byte-compiling /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/handlers.py to handlers.cpython-310.pyc
+[3.266s] running install_data
+[3.266s] copying package.xml -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/share/rosboard
+[3.266s] creating /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/share/ament_index
+[3.267s] creating /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/share/ament_index/resource_index
+[3.267s] creating /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/share/ament_index/resource_index/packages
+[3.267s] copying resource/rosboard -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/share/ament_index/resource_index/packages
+[3.267s] running install_egg_info
+[3.298s] Copying build/rosboard/rosboard.egg-info to /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard-1.3.1-py3.10.egg-info
+[3.299s] running install_scripts
+[3.420s] Installing rosboard_node script to /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/rosboard
+[3.421s] writing list of installed files to '/home/benya/PycharmProjects/ros2_control_panel/build/rosboard/install.log'
+[3.501s] Invoked command in '/home/benya/PycharmProjects/ros2_control_panel' returned '0': PYTHONPATH=/home/benya/PycharmProjects/ros2_control_panel/build/rosboard/prefix_override:/home/benya/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/rosboard build --build-base /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build install --record /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/install.log --single-version-externally-managed install_data
