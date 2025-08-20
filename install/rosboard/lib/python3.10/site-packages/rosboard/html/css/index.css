@@ -257,21 +257,21 @@ input, textarea, *[contenteditable=true] {
 @media screen and (min-width: 900px) {
   .card {
     display:inline-block;
-    width:calc(50% - 40pt);
+    width:calc(100% - 40pt);
   }
 }
 
 @media screen and (min-width: 1200px) {
   .card {
     display:inline-block;
-    width:calc(50% - 40pt);
+    width:calc(66.66% - 40pt);
   }
 }
 
 @media screen and (min-width: 1800px) {
   .card {
     display:inline-block;
-    width:calc(33% - 40pt);
+    width:calc(50% - 40pt);
   }
 }
 
@@ -586,4 +586,72 @@ input, textarea, *[contenteditable=true] {
   padding: 16px;
   display: flex;
   gap: 12px;
+}
+
+/* Ultra-wide screens scaling */
+@media screen and (min-width: 1800px) {
+  .mdl-layout__header,
+  .mdl-layout__header-row {
+    height: 110px;
+    min-height: 110px;
+  }
+  .mdl-layout__header .mdl-layout-title {
+    font-size: 32pt;
+  }
+  .logo {
+    height: 56px;
+  }
+  .system-hostname {
+    font-size: 14pt;
+  }
+  .mdl-layout__drawer-button {
+    width: 56px;
+    height: 56px;
+  }
+  .mdl-layout__drawer-button .material-icons {
+    font-size: 36px;
+    line-height: 56px;
+  }
+  .control-sheet.open {
+    height: 220px;
+  }
+  .control-sheet__content {
+    gap: 20px;
+  }
+  .control-button {
+    padding: 12px 16px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 2400px) {
+  .mdl-layout__header,
+  .mdl-layout__header-row {
+    height: 130px;
+    min-height: 130px;
+  }
+  .mdl-layout__header .mdl-layout-title {
+    font-size: 40pt;
+  }
+  .logo {
+    height: 64px;
+  }
+  .system-hostname {
+    font-size: 16pt;
+  }
+  .mdl-layout__drawer-button {
+    width: 64px;
+    height: 64px;
+  }
+  .mdl-layout__drawer-button .material-icons {
+    font-size: 40px;
+    line-height: 64px;
+  }
+  .control-sheet.open {
+    height: 260px;
+  }
+  .control-button {
+    padding: 14px 18px;
+    font-size: 22px;
+  }
 }
