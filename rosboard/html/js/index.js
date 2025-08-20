@@ -42,7 +42,7 @@ if(window.localStorage && window.localStorage.subscriptions) {
 // Robot Control Commands System
 const RobotCommands = {
   commands: {
-    'start': {
+    'turnOn': {
       topic: '/brake/turnOn',
       messageType: 'std_msgs/Bool',
       handler: function(data) {
@@ -53,7 +53,36 @@ const RobotCommands = {
           }
         };
       }
-    }
+    },
+
+    'turnOff': {
+      topic: '/brake/turnOn',
+      messageType: 'std_msgs/Bool',
+      handler: function(data) {
+        return {
+          topic: this.topic,
+          msg: {
+            data: data
+          }
+        };
+      }
+    },
+
+    'startWork': {
+      topic: '/brake/workFlag',
+      messageType: 'std_msgs/Bool',
+      handler: function(data) {
+        return {
+          topic: this.topic,
+          msg: {
+            data: data
+          }
+        };
+      }
+    },
+
+    'stopWork': {
+    },
   },
 
   sendCommand: function(commandName, data = true) {
@@ -139,7 +168,7 @@ let onOpen = function() {
 let onSystem = function(system) {
   if(system.hostname) {
     console.log("hostname: " + system.hostname);
-    $('.mdl-layout-title').text("ROSboard: " + system.hostname);
+    $('#system-hostname').text(system.hostname);
   }
 
   if(system.version) {
@@ -322,9 +351,21 @@ $(() => {
     initDefaultTransport();
   }
   
-  // Initialize robot control buttons
-  $('#start-button').on('click', function() {
-    RobotCommands.sendCommand('start', true);
+  // Initialize ROBOT CONTROL BUTTONS
+  $('#turnOn-button').on('click', function() {
+    RobotCommands.sendCommand('turnOn', true);
+  });
+
+  $('#turnOff-button').on('click', function() {
+    RobotCommands.sendCommand('turnOff', false);
+  });
+
+  $('#startWork-button').on('click', function() {
+    RobotCommands.sendCommand('startWork', false);
+  });
+
+  $('#stopWork-button').on('click', function() {
+    //
   });
 
   // Control sheet toggle

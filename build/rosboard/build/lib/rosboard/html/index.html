@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
     <head>
+      <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
         <link href="css/material-icons.css" media="all" rel="stylesheet" type="text/css">
         <script type="text/javascript" src="js/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="></script>
@@ -21,16 +22,25 @@
 	      <script type="text/javascript" src="js/litegl.min.js"></script>
         <script type="text/javascript" src="js/index.js" defer></script>
 
-        <title>ROSboard</title>
+        <title>ДИАГНОСТ</title>
     </head>
     <body>
         <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
           <header class="mdl-layout__header">
             <div class="mdl-layout__header-row">
+              <!--  <span id="system-hostname" class="system-hostname"></span> -->
               <!-- Title -->
-              <span class="mdl-layout-title">ROSboard</span>
-              <!-- Add spacer, to align navigation to the right -->
-              <div class="mdl-layout-spacer"></div>
+              <span>
+                <span class="mdl-layout-title">РОБОТИЗИРОВАННАЯ СИСТЕМА</span>
+                <span class="mdl-layout-title-sm">отпуска и проверки действия автоматических тормозов у грузовых вагонов на железнодорожной станции</span>
+              </span>
+
+              <span></span>
+
+              <span>
+                <img src="./css/images/niias-logo.png" alt="rzd_logo" class="logo">
+                <img src="./css/images/r-tele-logo.png" alt="telematika-logo" class="logo">
+              </span>
             </div>
           </header>
           <div class="mdl-layout__drawer">
@@ -54,7 +64,10 @@
   <div id="control-sheet" class="control-sheet">
     <div class="control-sheet__bar"></div>
     <div class="control-sheet__content">
-      <button id="start-button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">Start</button>
+      <button id="turnOn-button" class="control-button">ВКЛЮЧИТЬ</button>
+      <button id="turnOff-button" class="control-button">ВЫКЛЮЧИТЬ</button>
+      <button id="startWork-button" class="control-button">НАЧАТЬ</button>
+      <button id="stopWork-button" class="control-button">СТОП</button>
     </div>
   </div>
 

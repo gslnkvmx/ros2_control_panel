@@ -1,0 +1,28 @@
+[0.834s] Invoking command in '/home/benya/PycharmProjects/ros2_control_panel': PYTHONPATH=/home/benya/PycharmProjects/ros2_control_panel/build/rosboard/prefix_override:/home/benya/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/rosboard build --build-base /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build install --record /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/install.log --single-version-externally-managed install_data
+[1.112s] running egg_info
+[1.125s] writing build/rosboard/rosboard.egg-info/PKG-INFO
+[1.125s] writing dependency_links to build/rosboard/rosboard.egg-info/dependency_links.txt
+[1.125s] writing entry points to build/rosboard/rosboard.egg-info/entry_points.txt
+[1.125s] writing requirements to build/rosboard/rosboard.egg-info/requires.txt
+[1.125s] writing top-level names to build/rosboard/rosboard.egg-info/top_level.txt
+[1.148s] reading manifest file 'build/rosboard/rosboard.egg-info/SOURCES.txt'
+[1.149s] adding license file 'LICENSE'
+[1.150s] writing manifest file 'build/rosboard/rosboard.egg-info/SOURCES.txt'
+[1.150s] running build
+[1.150s] running build_py
+[1.152s] copying rosboard/html/index.html -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html
+[1.153s] copying rosboard/html/css/index.css -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/css
+[1.153s] copying rosboard/html/js/index.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js
+[1.154s] running install
+[1.157s] running install_lib
+[1.168s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/css/index.css -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/css
+[1.168s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/index.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[1.168s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/index.html -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html
+[1.169s] running install_data
+[1.170s] running install_egg_info
+[1.181s] removing '/home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard-1.3.1-py3.10.egg-info' (and everything under it)
+[1.181s] Copying build/rosboard/rosboard.egg-info to /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard-1.3.1-py3.10.egg-info
+[1.181s] running install_scripts
+[1.225s] Installing rosboard_node script to /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/rosboard
+[1.225s] writing list of installed files to '/home/benya/PycharmProjects/ros2_control_panel/build/rosboard/install.log'
+[1.265s] Invoked command in '/home/benya/PycharmProjects/ros2_control_panel' returned '0': PYTHONPATH=/home/benya/PycharmProjects/ros2_control_panel/build/rosboard/prefix_override:/home/benya/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/rosboard build --build-base /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build install --record /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/install.log --single-version-externally-managed install_data

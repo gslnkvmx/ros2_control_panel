@@ -1,0 +1,29 @@
+[0.871s] Invoking command in '/home/benya/PycharmProjects/ros2_control_panel': PYTHONPATH=/home/benya/PycharmProjects/ros2_control_panel/build/rosboard/prefix_override:/home/benya/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/rosboard build --build-base /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build install --record /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/install.log --single-version-externally-managed install_data
+[1.214s] running egg_info
+[1.225s] writing build/rosboard/rosboard.egg-info/PKG-INFO
+[1.225s] writing dependency_links to build/rosboard/rosboard.egg-info/dependency_links.txt
+[1.225s] writing entry points to build/rosboard/rosboard.egg-info/entry_points.txt
+[1.225s] writing requirements to build/rosboard/rosboard.egg-info/requires.txt
+[1.226s] writing top-level names to build/rosboard/rosboard.egg-info/top_level.txt
+[1.252s] reading manifest file 'build/rosboard/rosboard.egg-info/SOURCES.txt'
+[1.252s] adding license file 'LICENSE'
+[1.254s] writing manifest file 'build/rosboard/rosboard.egg-info/SOURCES.txt'
+[1.254s] running build
+[1.254s] running build_py
+[1.254s] copying rosboard/handlers.py -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard
+[1.255s] copying rosboard/html/index.html -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html
+[1.256s] copying rosboard/html/js/index.js -> /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js
+[1.257s] running install
+[1.261s] running install_lib
+[1.272s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/js/index.js -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html/js
+[1.272s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/html/index.html -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/html
+[1.272s] copying /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build/lib/rosboard/handlers.py -> /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard
+[1.273s] byte-compiling /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard/handlers.py to handlers.cpython-310.pyc
+[1.275s] running install_data
+[1.275s] running install_egg_info
+[1.287s] removing '/home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard-1.3.1-py3.10.egg-info' (and everything under it)
+[1.287s] Copying build/rosboard/rosboard.egg-info to /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages/rosboard-1.3.1-py3.10.egg-info
+[1.287s] running install_scripts
+[1.333s] Installing rosboard_node script to /home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/rosboard
+[1.333s] writing list of installed files to '/home/benya/PycharmProjects/ros2_control_panel/build/rosboard/install.log'
+[1.375s] Invoked command in '/home/benya/PycharmProjects/ros2_control_panel' returned '0': PYTHONPATH=/home/benya/PycharmProjects/ros2_control_panel/build/rosboard/prefix_override:/home/benya/.local/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/benya/PycharmProjects/ros2_control_panel/install/rosboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/rosboard build --build-base /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/build install --record /home/benya/PycharmProjects/ros2_control_panel/build/rosboard/install.log --single-version-externally-managed install_data

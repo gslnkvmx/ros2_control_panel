@@ -197,17 +197,16 @@ class ROSBoardSocketHandler(tornado.websocket.WebSocketHandler):
             topic = argv[1].get('topic')
             msg_data = argv[1].get('msg')
             
-            if topic == '/brake/turnOn':  # Hardcoded for your start button
-                if not hasattr(self, 'publishers'):
-                    self.publishers = {}
-                
-                if topic not in self.publishers:
-                    self.publishers[topic] = self.node.create_publisher(Bool, topic, 10)
-                
-                msg = Bool()
-                msg.data = msg_data['data']
-                self.publishers[topic].publish(msg)
-                print(f"Published to {topic}: {msg_data}")
+            if not hasattr(self, 'publishers'):
+                self.publishers = {}
+            
+            if topic not in self.publishers:
+                self.publishers[topic] = self.node.create_publisher(Bool, topic, 10)
+            
+            msg = Bool()
+            msg.data = msg_data['data']
+            self.publishers[topic].publish(msg)
+            print(f"Published to {topic}: {msg_data}")
 
 ROSBoardSocketHandler.MSG_PING = "p";
 ROSBoardSocketHandler.MSG_PONG = "q";

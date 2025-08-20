@@ -1,0 +1,2 @@
+Invoking command in '/home/benya/PycharmProjects/ros2_control_panel/build/rosboard': /usr/bin/cmake /home/benya/PycharmProjects/ros2_control_panel -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/benya/PycharmProjects/ros2_control_panel/install/rosboard
+Invoked command in '/home/benya/PycharmProjects/ros2_control_panel/build/rosboard' returned '1': /usr/bin/cmake /home/benya/PycharmProjects/ros2_control_panel -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/benya/PycharmProjects/ros2_control_panel/install/rosboard
